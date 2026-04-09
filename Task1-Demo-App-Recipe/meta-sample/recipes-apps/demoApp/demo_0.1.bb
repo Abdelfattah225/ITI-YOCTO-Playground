@@ -10,5 +10,13 @@ SRCREV = "bb0d01c3d540a93e76fa35177892956982bea740"
 
 S = "${WORKDIR}/git"
 
-inherit cmake
+do_configure() {
+        :
+}
+
+do_compile() {
+        ${CC} ${CFLAGS} ${LDFLAGS} -o DemoAppbin ${S}/main.c
+}
+
+
 
