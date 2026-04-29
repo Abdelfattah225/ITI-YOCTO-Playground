@@ -1,5 +1,3 @@
-# 📘 Complete README.md
-
 # 🍓 Yocto Custom Image for Raspberry Pi 3B+ with Qt6
 
 > A hands-on Yocto project: build a custom Linux distro for the Raspberry Pi 3B+,
